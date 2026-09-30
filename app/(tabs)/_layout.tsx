@@ -38,7 +38,7 @@ const TabLayout = () => {
           left: 16,
           right: 16,
           bottom: Math.max(insets.bottom, 12) + 4,
-          height: 70,
+          height: 60,
           borderRadius: 30,
           elevation: 5,
           borderTopWidth: 0,
