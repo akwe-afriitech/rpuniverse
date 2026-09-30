@@ -1,17 +1,17 @@
 import { icons } from "./icons";
 
 export const tabs: AppTab[] = [
-    { name: "index", title: "Home", icon: icons.home },
-    { name: "subscriptions", title: "Subscriptions", icon: icons.wallet },
-    { name: "insights", title: "Insights", icon: icons.activity },
-    { name: "settings", title: "Settings", icon: icons.setting },
+    { name: "dashboard", title: "Home", icon: icons.home },
+    { name: "inventory", title: "Inventory", icon: icons.wallet },
+    { name: "more", title: "More", icon: icons.menu },
+    { name: "sales", title: "Sales", icon: icons.setting },
 ];
 
 export const HOME_USER = {
     name: "Adrian | JS Mastery",
 };
 
-export const HOME_BALANCE = {
+export const HOME_BALANCE = { 
     amount: 2489.48,
     nextRenewalDate: "2026-03-18T09:00:00.000Z",
 };
