@@ -25,7 +25,7 @@ export default function Onboarding() {
           <Text style={{ color: "white", fontWeight: "bold" }}>Next</Text>
         </Pressable>
       </Link>
-      <Link href="/(auth)/sign-in" asChild>
+      {/* <Link href="/(auth)/sign-in" asChild>
         <Pressable>
           <Text style={{ color: "blue", fontWeight: "bold" }}>Sign In</Text>
         </Pressable>
@@ -34,7 +34,7 @@ export default function Onboarding() {
         <Pressable>
           <Text style={{ color: "blue", fontWeight: "bold" }}>Sign Up</Text>
         </Pressable>
-      </Link>
+      </Link> */}
     </View>
   );
 }
